@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="511" inline="false" x="86" y="23">
+  <block type="controls_whileUntil" id="511" inline="false" x="79" y="19">
     <field name="MODE">WHILE</field>
     <statement name="DO">
       <block type="oled_color" id="409">
@@ -16,6 +16,11 @@
                 <field name="OBJECT">RECT</field>
                 <next>
                   <block type="robot_delay" id="438" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="529">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
                     <next>
                       <block type="oled_linerect" id="457">
                         <field name="OBJECT">LINE</field>
