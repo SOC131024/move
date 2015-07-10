@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="controls_whileUntil" id="511" inline="false" x="86" y="23">
-    <field name="MODE">UNTIL</field>
+    <field name="MODE">WHILE</field>
     <statement name="DO">
       <block type="oled_color" id="409">
         <field name="OBJECT">GREEN</field>
