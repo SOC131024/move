@@ -2,7 +2,7 @@
   <block type="controls_repeat" id="282" inline="true" x="-33" y="-1">
     <value name="TIMES">
       <block type="math_number" id="289">
-        <field name="NUM">10</field>
+        <field name="NUM">10000000000</field>
       </block>
     </value>
     <statement name="DO">
