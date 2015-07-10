@@ -172,7 +172,7 @@
   <block type="controls_repeat" id="1" inline="true" x="-90" y="-202">
     <value name="TIMES">
       <block type="math_number" id="2">
-        <field name="NUM">10000</field>
+        <field name="NUM">10</field>
       </block>
     </value>
     <statement name="DO">
@@ -218,9 +218,6 @@
                                             <field name="NUM">1000</field>
                                           </block>
                                         </value>
-                                        <next>
-                                          <block type="movement_left" id="53"></block>
-                                        </next>
                                       </block>
                                     </next>
                                   </block>
